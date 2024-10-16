@@ -10,11 +10,11 @@ winget install --id TeamViewer.TeamViewer --silent --accept-package-agreements -
 
 # Install Adobe Creative Cloud
 Write-Host "Installing Adobe Creative Cloud..."
-winget install --id Adobe.AdobeCreativeCloud --silent --accept-package-agreements --accept-source-agreements
+winget install --id Adobe.CreativeCloud --silent --accept-package-agreements --accept-source-agreements
 
 # Install Google Drive
 Write-Host "Installing Google Drive..."
-winget install --id Google.Drive --silent --accept-package-agreements --accept-source-agreements
+winget install --id Google.GoogleDrive --silent --accept-package-agreements --accept-source-agreements
 
 # Confirmation of installation
 Write-Host "Installation of software complete."
